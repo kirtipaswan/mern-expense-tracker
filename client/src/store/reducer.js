@@ -10,7 +10,8 @@ export const expenseSlice = createSlice({
     initialState,
     reducers : {
         getTransactions: (state) => {
-                // get code
+                // This reducer can be responsible for updating state after fetching transactions from MongoDB
+                // You can dispatch this when you get data from MongoDB
         }
     }
 })

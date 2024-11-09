@@ -1,6 +1,7 @@
 import './App.css';
 import Graph from './components/Graph';
 import Form from './components/Form';
+import 'boxicons/css/boxicons.min.css';
 
 function App() {
   return (
